@@ -6,6 +6,7 @@
 	"allowBranch": ["main", "feature/*"],
 	"command": {
 		"version": {
+			"conventional-prerelease": "*",
 			"conventionalCommits": true,
 //			"changelogIncludeCommitsClientLogin": " - by @%l",
 			"changelogHeaderMessage": "## Automate your Workspace Versioning, Publishing & Changelogs with [Lerna-Lite](https://github.com/lerna-lite/lerna-lite) 📦🚀",
