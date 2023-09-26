@@ -3,6 +3,7 @@
 	"version": "0.0.0",
 	"loglevel": "verbose",
 	"npmClient": "pnpm",
+	"allowBranch": ["main", "feature/*"],
 	"command": {
 		"version": {
 			"conventionalCommits": true,
