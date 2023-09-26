@@ -1,14 +1,16 @@
 {
 	"$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
-	"version": "0.0.1-alpha.0",
+	"version": "0.0.1-alpha.1",
 	"loglevel": "verbose",
 	"npmClient": "pnpm",
-	"allowBranch": ["main", "feature/*"],
+	"allowBranch": [
+		"main",
+		"feature/*"
+	],
 	"command": {
 		"version": {
 			"conventional-prerelease": "*",
 			"conventionalCommits": true,
-//			"changelogIncludeCommitsClientLogin": " - by @%l",
 			"changelogHeaderMessage": "## Automate your Workspace Versioning, Publishing & Changelogs with [Lerna-Lite](https://github.com/lerna-lite/lerna-lite) 📦🚀",
 			"message": "chore(release): publish new version %v"
 		}
