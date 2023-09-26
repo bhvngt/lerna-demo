@@ -1,0 +1,12 @@
+{
+  "name": "@apps/web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'running @apps/web test'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
